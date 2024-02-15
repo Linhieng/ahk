@@ -3,6 +3,9 @@
 
 ; 只使用微软拼音，并且关闭系统自带的语言模式切换，通过 autoHotkey 自定义
 
+; 通过修改注册表来设置微软拼音输入法工具栏为水平。
+RegWrite "0", "REG_DWORD", "HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS", "ToolBarOrientation"
+
 DetectHiddenWindows True
 
 ; 方案一：左 shift 始终切换到英文；右 shift 始终切换到中文
