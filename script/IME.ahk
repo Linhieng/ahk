@@ -13,8 +13,10 @@ DetectHiddenWindows True
 ; ~RShift:: switch_mode(1025)
 
 ; 方案二： win+space 实现语言切换
+A_MenuMaskKey := "vkE8"
 #Space::
 {
+    ; bug: 在网易有道词典的“翻译”中不生效
     mode := 0
     ; text := "ENG"
     if ifEnglishMode() {
