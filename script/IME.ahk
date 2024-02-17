@@ -16,7 +16,7 @@ DetectHiddenWindows True
 A_MenuMaskKey := "vkE8"
 #Space::
 {
-    ; bug: 在网易有道词典的“翻译”中不生效
+    ; bug: 在网易有道词典的“翻译”中不生效。代码执行了，但不生效，我觉得是 SendMessage 中的 winTitle 问题
     ; bug: 在防火墙高级设置，添加规则过程中的输入框中不生效
     mode := 0
     ; text := "ENG"
