@@ -27,6 +27,8 @@ TODO:
 
 - 获取微软拼音当前模式（中/英/全半角等）
 
+    有时候查询有错误（连续切换输入模式）
+    某些情况无法查询（网易翻译）
     ```ahk
     DetectHiddenWindows True
     mode := SendMessage(
