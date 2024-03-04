@@ -3,6 +3,7 @@
 
 
 Scripts := [
+    "D:\ahk\script\pin.ahk",
     "D:\ahk\script\drag.ahk",
     "D:\ahk\script\my-hotkey.ahk",
 ]

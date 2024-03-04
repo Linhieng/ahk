@@ -2,7 +2,7 @@
 #SingleInstance force
 
 ; Launch_Media 代替鼠标单击。Launch_Media 是魔咖单模87键盘设置在原 Fn 按键上的。
-Launch_Media::Click
+; Launch_Media::Click
 
 
 ; Win+M 打开 wt 终端
